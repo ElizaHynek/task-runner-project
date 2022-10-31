@@ -1,0 +1,164 @@
+body {
+    font-family: 'Noto Serif', serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.services {
+    padding: 50px;
+}
+
+.portfolio {
+    padding: 50px;
+    background-color: rgb(245, 245, 245);
+}
+
+h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.title p {
+    font-family: 'Caveat', cursive;
+    font-size: 18px;
+    line-height: 0;
+    padding-bottom: 30px;
+}
+
+h4 {
+    font-size: 14px;
+}
+p {
+    color: rgb(146, 146, 146);
+}
+
+/* Slide */
+
+.slide {
+    background-image: url('/images/pexels-laryssa-suaid-1667088.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+
+}
+
+.brand {
+    position: absolute;
+    top: 20px;
+    left: 15%;
+    color: rgb(13, 156, 175);
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    font-weight: 900;
+}
+.nav {
+    position: absolute;
+    right: 15%;
+    font-size: 11px;
+    text-transform: uppercase; 
+
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 19px;
+}
+.nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+.slide .title {
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%,-60%);
+    color: antiquewhite;
+}
+
+.title h1 {
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+.title h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+button {
+    font-weight: 700;
+    font-size: 14px;
+    height: 40px;
+    padding: 0 20px;
+    color:blanchedalmond;
+    background-color: rgb(13, 156, 175);
+    border-style: none;
+}
+
+/* Services */
+
+.s-card i {
+    color:rgb(13, 156, 175);
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid rgb(13, 156, 175);
+    line-height: 60px;
+}
+
+/* Portfolio */
+
+.p-card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+}
+
+.image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.p-text {
+    display: inline-block;
+    background-color: #fff;
+    padding-bottom: 20px; 
+}
+.p-text p {
+    font-family: 'Caveat', cursive;
+    font-size: 16px;
+    line-height: 0;
+}
+
+
+/* Footer */
+
+footer {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.social ul {
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    left: 40%;
+}
+
+.social a {
+    text-decoration: none;
+    color: rgb(13, 156, 175);
+    padding: 10px;
+    font-size: 30px;
+}
+
+footer p {
+    position: absolute;
+    top: 20px;
+    left: 15%;
+}
