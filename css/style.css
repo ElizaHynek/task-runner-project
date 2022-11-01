@@ -1,164 +1,243 @@
 body {
-    font-family: 'Noto Serif', serif;
-    font-size: 12px;
-    text-align: center;
+  font-family: "Noto Serif", serif;
+  font-size: 12px;
+  text-align: center;
 }
 
 .services {
-    padding: 50px;
+  padding: 50px;
 }
 
 .portfolio {
-    padding: 50px;
-    background-color: rgb(245, 245, 245);
+  padding: 50px;
+  background-color: rgb(245, 245, 245);
 }
 
 h3 {
-    font-size: 30px;
-    text-transform: uppercase;
-    margin-bottom: 0;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
+
 .title p {
-    font-family: 'Caveat', cursive;
-    font-size: 18px;
-    line-height: 0;
-    padding-bottom: 30px;
+  font-family: "Caveat", cursive;
+  font-size: 18px;
+  line-height: 0;
+  padding-bottom: 30px;
 }
 
 h4 {
-    font-size: 14px;
+  font-size: 14px;
 }
+
 p {
-    color: rgb(146, 146, 146);
+  color: rgb(146, 146, 146);
 }
 
 /* Slide */
-
 .slide {
-    background-image: url('/images/pexels-laryssa-suaid-1667088.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-    position: relative;
-
+  background-image: url("/images/pexels-laryssa-suaid-1667088.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  position: relative;
 }
 
 .brand {
-    position: absolute;
-    top: 20px;
-    left: 15%;
-    color: rgb(13, 156, 175);
-    font-family: 'Caveat', cursive;
-    font-size: 24px;
-    font-weight: 900;
+  position: absolute;
+  top: 20px;
+  left: 15%;
+  color: rgb(13, 156, 175);
+  font-family: "Caveat", cursive;
+  font-size: 24px;
+  font-weight: 900;
 }
-.nav {
-    position: absolute;
-    right: 15%;
-    font-size: 11px;
-    text-transform: uppercase; 
 
+.nav {
+  position: absolute;
+  right: 15%;
+  font-size: 11px;
+  text-transform: uppercase;
 }
+
 .nav ul {
-    display: flex;
-    list-style-type: none;
-    padding-top: 19px;
+  display: flex;
+  list-style-type: none;
+  padding-top: 19px;
 }
+
 .nav a {
-    text-decoration: none;
-    padding: 10px;
-    color: antiquewhite;
+  text-decoration: none;
+  padding: 10px;
+  color: antiquewhite;
 }
 
 .slide .title {
-    position: absolute;
-    top: 60%; 
-    left: 50%;
-    transform: translate(-50%,-60%);
-    color: antiquewhite;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  color: antiquewhite;
 }
 
 .title h1 {
-    font-family: 'Caveat', cursive;
-    font-size: 40px;
+  font-family: "Caveat", cursive;
+  font-size: 40px;
 }
+
 .title h2 {
-    font-size: 50px;
-    text-transform: uppercase;
-    line-height: 1.3;
+  font-size: 50px;
+  text-transform: uppercase;
+  line-height: 1.3;
 }
+
 button {
-    font-weight: 700;
-    font-size: 14px;
-    height: 40px;
-    padding: 0 20px;
-    color:blanchedalmond;
-    background-color: rgb(13, 156, 175);
-    border-style: none;
+  font-weight: 700;
+  font-size: 14px;
+  height: 40px;
+  padding: 0 20px;
+  color: blanchedalmond;
+  background-color: rgb(13, 156, 175);
+  border-style: none;
 }
 
 /* Services */
+.s-card {
+  padding: 20px;
+}
 
 .s-card i {
-    color:rgb(13, 156, 175);
-    font-size: 40px;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: 3px solid rgb(13, 156, 175);
-    line-height: 60px;
+  color: rgb(13, 156, 175);
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 3px solid rgb(13, 156, 175);
+  line-height: 60px;
+}
+
+.s-card p {
+  max-width: 400px;
+  margin: auto;
 }
 
 /* Portfolio */
-
 .p-card {
-    display: flex;
-    flex-direction: column;
-    padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px;
+  max-width: 350px;
+  margin: auto;
 }
 
 .image {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-}
-.p-text {
-    display: inline-block;
-    background-color: #fff;
-    padding-bottom: 20px; 
-}
-.p-text p {
-    font-family: 'Caveat', cursive;
-    font-size: 16px;
-    line-height: 0;
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
+.p-text {
+  display: inline-block;
+  background-color: #fff;
+  padding-bottom: 20px;
+}
+
+.p-text p {
+  font-family: "Caveat", cursive;
+  font-size: 16px;
+  line-height: 0;
+}
 
 /* Footer */
-
 footer {
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.social {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .social ul {
-    display: flex;
-    list-style-type: none;
-    position: absolute;
-    left: 40%;
+  display: flex;
+  list-style-type: none;
+}
+
+.social i {
+  text-decoration: none;
+  color: rgb(13, 156, 175);
+  padding: 10px;
+  font-size: 30px;
 }
 
 .social a {
-    text-decoration: none;
-    color: rgb(13, 156, 175);
-    padding: 10px;
-    font-size: 30px;
+  font-size: 0;
 }
 
 footer p {
-    position: absolute;
-    top: 20px;
-    left: 15%;
+  position: absolute;
+  top: 15px;
+  left: 10%;
 }
+
+@media (max-width: 767px) {
+  .slide {
+    height: 350px;
+  }
+  .brand {
+    top: 10px;
+    left: 5%;
+  }
+  .nav {
+    right: 5%;
+    text-transform: uppercase;
+  }
+  .nav ul {
+    padding-top: 8px;
+  }
+  .nav a {
+    padding: 5px;
+  }
+  .title h1 {
+    font-size: 30px;
+  }
+  .title h2 {
+    font-size: 35px;
+    line-height: 1;
+  }
+  button {
+    font-size: 12px;
+    height: 30px;
+    padding: 0 10px;
+  }
+  footer {
+    height: 40px;
+  }
+  .social i {
+    font-size: 35px;
+  }
+  footer p {
+    top: 80%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (min-width: 992px) {
+  .s-card {
+    padding: 30px;
+  }
+  .s-card i {
+    font-size: 50px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFJQTtFQUNJLGdDQUpRO0VBS1IsZUFBQTtFQUNBLGtCQUFBO0FDSEo7O0FETUE7RUFDSSxhQUFBO0FDSEo7O0FETUE7RUFDSSxhQUFBO0VBQ0Esb0NBQUE7QUNISjs7QURNQTtFQUNJLGVBQUE7RUFDQSx5QkFBQTtFQUNBLGdCQUFBO0FDSEo7O0FES0E7RUFDSSw4QkF6QlM7RUEwQlQsZUFBQTtFQUNBLGNBQUE7RUFDQSxvQkFBQTtBQ0ZKOztBREtBO0VBQ0ksZUFBQTtBQ0ZKOztBRElBO0VBQ0kseUJBQUE7QUNESjs7QURJQSxVQUFBO0FBRUE7RUFDSSxpRUFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7RUFDQSxhQUFBO0VBQ0Esa0JBQUE7QUNGSjs7QURNQTtFQUNJLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLFNBQUE7RUFDQSx3QkFuRFU7RUFvRFYsOEJBdERTO0VBdURULGVBQUE7RUFDQSxnQkFBQTtBQ0hKOztBREtBO0VBQ0ksa0JBQUE7RUFDQSxVQUFBO0VBQ0EsZUFBQTtFQUNBLHlCQUFBO0FDRko7O0FES0E7RUFDSSxhQUFBO0VBQ0EscUJBQUE7RUFDQSxpQkFBQTtBQ0ZKOztBRElBO0VBQ0kscUJBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7QUNESjs7QURJQTtFQUNJLGtCQUFBO0VBQ0EsUUFBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtFQUNBLG1CQUFBO0FDREo7O0FESUE7RUFDSSw4QkFyRlM7RUFzRlQsZUFBQTtBQ0RKOztBREdBO0VBQ0ksZUFBQTtFQUNBLHlCQUFBO0VBQ0EsZ0JBQUE7QUNBSjs7QURFQTtFQUNJLGdCQUFBO0VBQ0EsZUFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0EscUJBQUE7RUFDQSxtQ0FqR1U7RUFrR1Ysa0JBQUE7QUNDSjs7QURFQSxhQUFBO0FBRUE7RUFDSSxhQUFBO0FDQUo7O0FERUE7RUFDSSx3QkFBQTtFQUNBLGVBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsbUNBQUE7RUFDQSxpQkFBQTtBQ0NKOztBREVBO0VBQ0ksZ0JBQUE7RUFDQSxZQUFBO0FDQ0o7O0FERUEsY0FBQTtBQUVBO0VBQ0ksYUFBQTtFQUNBLHNCQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLFlBQUE7QUNBSjs7QURHQTtFQUNJLFdBQUE7RUFDQSxhQUFBO0VBQ0Esb0JBQUE7S0FBQSxpQkFBQTtBQ0FKOztBREVBO0VBQ0kscUJBQUE7RUFDQSxzQkFBQTtFQUNBLG9CQUFBO0FDQ0o7O0FEQ0E7RUFDSSw4QkFoSlM7RUFpSlQsZUFBQTtFQUNBLGNBQUE7QUNFSjs7QURFQSxXQUFBO0FBRUE7RUFDSSxpQkFBQTtFQUNBLGFBQUE7RUFDQSw4QkFBQTtFQUNBLGtCQUFBO0FDQUo7O0FER0E7RUFDSSxrQkFBQTtFQUNBLFFBQUE7RUFDQSxTQUFBO0VBQ0EsZ0NBQUE7QUNBSjs7QURFQTtFQUNJLGFBQUE7RUFDQSxxQkFBQTtBQ0NKOztBREVBO0VBQ0kscUJBQUE7RUFDQSx3QkExS1U7RUEyS1YsYUFBQTtFQUNBLGVBQUE7QUNDSjs7QURFQTtFQUNJLFlBQUE7QUNDSjs7QURFQTtFQUNJLGtCQUFBO0VBQ0EsU0FBQTtFQUNBLFNBQUE7QUNDSjs7QURFQTtFQUNJO0lBQ0ksYUFBQTtFQ0NOO0VERUU7SUFDSSxTQUFBO0lBQ0EsUUFBQTtFQ0FOO0VERUU7SUFDSSxTQUFBO0lBQ0EseUJBQUE7RUNBTjtFREVFO0lBQ0ksZ0JBQUE7RUNBTjtFREVFO0lBQ0ksWUFBQTtFQ0FOO0VER0U7SUFDSSxlQUFBO0VDRE47RURHRTtJQUNJLGVBQUE7SUFDQSxjQUFBO0VDRE47RURHRTtJQUNJLGVBQUE7SUFDQSxZQUFBO0lBQ0EsZUFBQTtFQ0ROO0VESUU7SUFDSSxZQUFBO0VDRk47RURJRTtJQUNJLGVBQUE7RUNGTjtFRElFO0lBQ0ksUUFBQTtJQUNBLFNBQUE7SUFDQSxnQ0FBQTtFQ0ZOO0FBQ0Y7QURLQTtFQUNJO0lBQ0ksYUFBQTtFQ0hOO0VES0U7SUFDSSxlQUFBO0lBQ0EsV0FBQTtJQUNBLFlBQUE7SUFDQSxpQkFBQTtFQ0hOO0FBQ0YiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
